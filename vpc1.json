@@ -8,37 +8,51 @@
      
     "AZA": {
         "Description": "This is for AZA",
-        "Type": "AWS::EC2::AvailabilityZone::Name"
+        "Type": "AWS::EC2::AvailabilityZone::Name",
+        "Default": "us-east-1a"
+
         
         },
 
      "AZB": {
         "Description": "This is for AZB",
-        "Type": "AWS::EC2::AvailabilityZone::Name"
+        "Type": "AWS::EC2::AvailabilityZone::Name",
+        "Default": "us-east-1b"
+
         
         },
     
     "PUBSUB1CIRD": {
         "Description": "For PUBSUB1CIRD",
-        "Type": "String"
+        "Type": "String",
+        "Default": "10.0.1.0/24"
+
         
     },
     "PUBSUB2CIRD": {
       "Description": "For PUBSUB2CIRD",
-      "Type": "String"
+      "Type": "String",
+      "Default": "10.0.2.0/24"
+
     },
     "PRVSUB1CIRD": {
       "Description": "For PRVSUB1CIRD",
-      "Type": "String"
+      "Type": "String",
+      "Default": "10.0.3.0/24"
+
     },
     "PRVSUB2CIRD": {
       "Description": "For PRVSUB2CIRD",
-      "Type": "String"
+      "Type": "String",
+      "Default": "10.0.4.0/24"
+
 
     },
     "VPCCIRD": {
       "Description": "For VPCCIRD",
-      "Type": "String"
+      "Type": "String",
+      "Default": "10.0.0.0/16"
+
     }
   },
 
